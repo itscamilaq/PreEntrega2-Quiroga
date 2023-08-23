@@ -108,7 +108,7 @@ ul li a{
 }
 
 footer{
-    background-color: #fa89e2;
+    background-color: #e05ac4;
 
     display: flex;
     flex-direction: column;
@@ -173,7 +173,6 @@ footer h4,p{
         padding: 20px;
         
     }
-    
     .li_mob{
         margin-top: 20px;
         padding-left: 20px;
@@ -210,5 +209,45 @@ footer h4,p{
         
 
 }
- 
 
+ 
+fieldset {
+    box-sizing: border-box;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e05ac37c; 
+    border: 2px solid #7c266a;
+    border-radius: 8px;
+
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+textarea{
+    width: 100%;
+    border: 2px solid #7e1e69;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contacto {
+    align-self: center;
+    font-family: cursive; font-size: 22px;
+}
+
+.txt-contacto {
+    align-self: center;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
